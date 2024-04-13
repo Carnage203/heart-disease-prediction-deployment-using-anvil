@@ -7,7 +7,22 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: image_1
+    properties: {source: _/theme/Heart_Disease_Prediction.jpeg, height: 298.3999938964844}
+    type: Image
+    layout_properties: {grid_position: 'UIZBMQ,XJNCFP'}
+  - name: text_area_1
+    properties: {height: 80.79998779296875, text: 'Age: ', bold: false, enabled: false,
+      font: ''}
+    type: TextArea
+    layout_properties: {grid_position: 'DLSYIY,EHWKRM'}
+    data_bindings: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: headline_1
+  properties: {role: headline, text: Heart Disease Prediction}
+  type: Label
+  layout_properties: {slot: title}
