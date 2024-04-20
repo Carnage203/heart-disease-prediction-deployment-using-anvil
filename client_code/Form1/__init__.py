@@ -10,22 +10,6 @@ class Form1(Form1Template):
 
     # Any code you write here will run before the form opens.
 
-  def text_box_1_pressed_enter(self, **event_args):
-    """This method is called when the user presses Enter in this text box"""
-    pass
-
-  def primary_color_1_click(self, **event_args):
-
-    pass
-
-  def plot_1_click(self, points, **event_args):
-    """This method is called when a data point is clicked."""
-    pass
-
-  def link_1_click(self, **event_args):
-    """This method is called when the link is clicked"""
-    pass
-
   def CHECK_click(self, **event_args):
     """This method is called when the button is clicked"""
     
