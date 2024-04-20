@@ -1,6 +1,5 @@
 from ._anvil_designer import Form1Template
 from anvil import *
-import plotly.graph_obects as go
 import anvil.server
 
 
@@ -17,8 +16,21 @@ class Form1(Form1Template):
 
   def primary_color_1_click(self, **event_args):
 
+    pass
+
+  def plot_1_click(self, points, **event_args):
+    """This method is called when a data point is clicked."""
+    pass
+
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    pass
+
+  def CHECK_click(self, **event_args):
     """This method is called when the button is clicked"""
-    diabetes=anvil.server.call('CHECK',
+    
+    """This method is called when the button is clicked"""
+    Heart_Disease=anvil.server.call('CHECK',
                               self.Age.text,
                               self.Sex.text,
                               self.Chest_pain_type.text,
@@ -39,13 +51,7 @@ class Form1(Form1Template):
       self.Heart_Disease.visible=True
       self.Heart_Disease.text="You have no Heart Disease"
 
-  def plot_1_click(self, points, **event_args):
-    """This method is called when a data point is clicked."""
-    pass
-
-  def link_1_click(self, **event_args):
-    """This method is called when the link is clicked"""
-    pass
+    
 
 
 
