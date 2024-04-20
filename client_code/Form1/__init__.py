@@ -33,7 +33,7 @@ class Form1(Form1Template):
       self.Heart_Disease.text="You have Heart Disease"
     else:
       self.Heart_Disease.visible=True
-      self.Heart_Disease.text="You have no Heart Disease"
+      self.Heart_Disease.text="You do not have Heart Disease"
 
     
 
