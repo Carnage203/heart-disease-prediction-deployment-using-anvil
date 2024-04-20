@@ -12,12 +12,110 @@ components:
     properties: {source: _/theme/Heart_Disease_Prediction.jpeg, height: 298.3999938964844}
     type: Image
     layout_properties: {grid_position: 'UIZBMQ,XJNCFP'}
-  - name: text_area_1
-    properties: {height: 80.79998779296875, text: 'Age: ', bold: false, enabled: false,
-      font: ''}
-    type: TextArea
-    layout_properties: {grid_position: 'DLSYIY,EHWKRM'}
-    data_bindings: []
+  - name: label_1
+    properties: {text: Age}
+    type: Label
+    layout_properties: {grid_position: 'ZRAIBG,VPFHIB'}
+  - name: Age
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'ZRAIBG,TMCDXO'}
+  - name: label_2
+    properties: {text: Sex}
+    type: Label
+    layout_properties: {grid_position: 'RAJATY,UBPBTR'}
+  - name: Sex
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'RAJATY,NMRRAG'}
+  - name: label_3
+    properties: {text: Chest pain type}
+    type: Label
+    layout_properties: {grid_position: 'GXROLW,HMOSME'}
+  - name: Chest_pain_type
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'GXROLW,RQHMKX'}
+  - name: label_4
+    properties: {text: BP}
+    type: Label
+    layout_properties: {grid_position: 'JMOPPQ,FZJEXC WGGVHY,TBBLYP'}
+  - name: label_5
+    properties: {text: Cholestrol}
+    type: Label
+    layout_properties: {grid_position: 'JMOPPQ,FZJEXC FEOOET,FMMAVJ'}
+  - name: label_6
+    properties: {text: FBS Over 120}
+    type: Label
+    layout_properties: {grid_position: 'JMOPPQ,FZJEXC HVUNLG,ZKQANQ'}
+  - name: BP
+    properties: {placeholder: ''}
+    type: TextBox
+    layout_properties: {grid_position: 'JMOPPQ,XVKOLQ PQYKTV,TZCRAL'}
+  - name: Cholestrol
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'JMOPPQ,XVKOLQ LPXSAM,JQBZNG'}
+  - name: FBS_Over_120
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'JMOPPQ,XVKOLQ KKTZKM,EAYQIH'}
+  - name: label_12
+    properties: {text: EKG Results}
+    type: Label
+    layout_properties: {grid_position: 'ODLFJC,HHKLDX'}
+  - name: EKG_Results
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'ODLFJC,NNLBJN'}
+  - name: label_8
+    properties: {text: Exercise angina}
+    type: Label
+    layout_properties: {grid_position: 'HGHKFU,NLPSKA'}
+  - name: Exercise_angina
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'HGHKFU,NXSOQY'}
+  - name: label_7
+    properties: {text: ST depression}
+    type: Label
+    layout_properties: {grid_position: 'FXBYSA,GYNVOG'}
+  - name: ST_depression
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'FXBYSA,ZPSVVF'}
+  - name: label_9
+    properties: {text: Slope of ST}
+    type: Label
+    layout_properties: {grid_position: 'HKVNDM,OZTLFV'}
+  - name: Slope_of_ST
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'HKVNDM,PAIJFL'}
+  - name: label_10
+    properties: {text: Number of vessels fluro}
+    type: Label
+    layout_properties: {grid_position: 'KJXUMB,XLYXIP'}
+  - name: Number_of_vessels_fluro
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'KJXUMB,CLMDSJ'}
+  - name: label_11
+    properties: {text: Thallium}
+    type: Label
+    layout_properties: {grid_position: 'RMIZCF,ISUBFJ'}
+  - name: Thallium
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'RMIZCF,VXUPCW'}
+  - name: button_1
+    properties: {text: CHECK, spacing_above: large, spacing_below: large}
+    type: Button
+    layout_properties: {grid_position: 'YIUKAG,CHXXCG'}
+  - name: Heart_Disease
+    properties: {align: center, bold: true, visible: false, font_size: 35}
+    type: Label
+    layout_properties: {grid_position: 'QEUWSU,PJTZBD'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
